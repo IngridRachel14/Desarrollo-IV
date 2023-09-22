@@ -1,41 +1,42 @@
-body{
+body {
     background-color: rgb(200, 255, 255);
     border: 3px solid black;
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-hr{
-    border: 2px solid black
+hr {
+    border: 2px solid black;
 }
 
-.foto{
+.foto {
     border-radius: 50%;
 }
 
-h1{
-    background-color: white
+h1 {
+    background-color: white;
 }
 
-h2{
-    /*text-align: center;*/
+h2 {
     background-position: 10cm;
     background-color: white;
 }
 
-h3{
+h3 {
     font-weight: 9000;
 }
 
-table{
-    margin-left: 400px;
+button {
+    background-color: rgb(200, 255, 255);
+    color: white;
+    font-size: medium;
 }
 
-.ap{
-    margin-left: 525px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-li{
-    /*text-align: center;*/
-    margin-bottom: 10px;
+footer {
+    text-align: center;
 }
