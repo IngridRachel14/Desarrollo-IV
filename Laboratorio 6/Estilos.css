@@ -1,0 +1,49 @@
+/*-----------------------------------CSS-JOHN-----------------------------------*/
+
+.Col {
+    display: flex;
+    background-image: url(NeedForSpeedBanner.jpg);
+    background-position: 50% 50%;
+    justify-content: center;
+}
+
+.column {
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.art1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+
+}
+
+
+.art2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.art3 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+a{
+    color: blue;
+    font-weight: 900;
+    font-size:large;
+}
