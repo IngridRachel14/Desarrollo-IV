@@ -42,8 +42,12 @@
     padding: 15px;
 }
 
-a{
-    color: blue;
+.VerMas {
+    color: yellow;
     font-weight: 900;
     font-size:large;
+}
+
+.titleC {
+    color: yellow;
 }
