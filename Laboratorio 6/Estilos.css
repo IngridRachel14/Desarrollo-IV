@@ -97,42 +97,42 @@
     margin: 0;
 }
 /*banner*/
+@import url('https://fonts.cdnfonts.com/css/scrible-plumy');    
 .cont{
     width: 100%;
     color: yellow;
-    top: 45%;
+    top: 25%;
     text-align: center;
     margin-bottom: 100px;
    position: absolute;
 }
 .tbanner{ 
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 800;
+    font-family: 'Scrible Plumy', sans-serif;
+    font-family: 'Scrible Plumy Outline', sans-serif;
 }
 .botonbanner{
     width: 200px;
     height: 50px;
     text-align: center;
     border-radius: 15px;
-    color: black;
+    color: yellow;
     border: 2px;
     font-size: 20px;
     cursor: pointer;
-    font-weight: 600;
-    background-color: yellow;
+    font-weight: 800;
+    background-color: black;
 }
 .botonbanner :hover{
     background: yellow;
     color: black;
 }
-.pbanner{
-    font-size: 20px;
-    justify-content: center;
-    margin: 0px;
-}
-.banner video{
+
+.banner video {
     width: 100%;
-   opacity: 0.7;
+    opacity: 0.8;
     bottom: 0;
     right: 0;
-}
+  }
+  
