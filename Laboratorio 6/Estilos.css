@@ -27,13 +27,7 @@
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
-<<<<<<< HEAD
     padding: 15px;   
-=======
-    padding: 15px;
-    font-style: oblique;
-
->>>>>>> 3b6bea91e54285a32264530f6d3c08ab78190a98
 }
 
 
@@ -47,10 +41,6 @@
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
-<<<<<<< HEAD
-=======
-    font-style: oblique;
->>>>>>> 3b6bea91e54285a32264530f6d3c08ab78190a98
 }
 
 .art3 {
@@ -63,10 +53,6 @@
     margin-left: 15px;
     padding: 15px;
     margin-right: 15px;
-<<<<<<< HEAD
-=======
-    font-style: oblique;
->>>>>>> 3b6bea91e54285a32264530f6d3c08ab78190a98
 }
 
 .VerMas {
@@ -77,11 +63,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-<<<<<<< HEAD
 .Titu3{
-=======
-.titu3 {
->>>>>>> 3b6bea91e54285a32264530f6d3c08ab78190a98
     font-weight: 100;
     width: 350px;
     height: 350px;
@@ -93,12 +75,8 @@
 }
 
 .titleC {
-<<<<<<< HEAD
     font-style:oblique;
     color: yellow;
-=======
-    color: #ffcd00;
->>>>>>> 3b6bea91e54285a32264530f6d3c08ab78190a98
     font-weight: 900;
 }
 
@@ -135,8 +113,8 @@
 }
 
 .item {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     height: 40px;
     border-radius: 10px;
     color: #ffcd00;
@@ -183,7 +161,7 @@
 .botonbanner {
     width: 200px;
     height: 50px;
-    margin-top: 370px;
+    margin-top: 390px;
     text-align: center;
     border-radius: 15px;
     color: #ffcd00;
@@ -195,9 +173,9 @@
 }
 
 .imgbanner {
-    top: 120px;
+    top: 80px;
     width: 500px;
-    left: 500px;
+    left: 450px;
     position: absolute;
 }
 
@@ -212,6 +190,12 @@
     bottom: 0;
     right: 0;
 }
+.desc{
+    position: absolute;
+    margin-top: 280px;
+    left: 30px;
+    font-size: 28px;
+}
 
 /*-----------------------------------CSS-INGRID-----------------------------------*/
 
@@ -223,14 +207,13 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
-    margin-right: 200px;
-    padding: ;
+    margin-right: 100px;
 }
 
 .boton-comprar {
     background-color: #ffcd00;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 8px;
     text-transform: uppercase;
     font-weight: bold;
     justify-content: center;
@@ -307,7 +290,7 @@ footer {
     margin-right: 20px;
     margin-left: -305px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
