@@ -65,18 +65,13 @@
 
 .Titu3{
     font-weight: 100;
-    width: 350px;
-    height: 350px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     border: 1px;
     border-color: white;
 }
 
 .titleC {
     font-style:oblique;
-    color: yellow;
+    color: #ffcd00;
     font-weight: 900;
 }
 
@@ -84,8 +79,8 @@
     width: 300px;
     height: 50px;
     font-weight: 700;
-    font-family: 'Scrible Plumy', sans-serif;
     font-size: 20px;
+    font-style: oblique;
     border-radius: 15px;
     background-color: #ffcd00;
     margin-left: 50px;
@@ -361,3 +356,4 @@ footer {
 .logo-U {
     max-width: 48%;
 }
+
