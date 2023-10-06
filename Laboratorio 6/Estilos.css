@@ -27,9 +27,7 @@
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 15px;
-    font-style:oblique;
-    
+    padding: 15px;   
 }
 
 
@@ -43,7 +41,6 @@
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
-    font-style:oblique;
 }
 
 .art3 {
@@ -56,7 +53,6 @@
     margin-left: 15px;
     padding: 15px;
     margin-right: 15px;
-    font-style:oblique;
 }
 
 .VerMas {
@@ -67,11 +63,19 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.titu3{
+.Titu3{
     font-weight: 100;
+    width: 350px;
+    height: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px;
+    border-color: white;
 }
 
 .titleC {
+    font-style:oblique;
     color: yellow;
     font-weight: 900;
 }
