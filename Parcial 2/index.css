@@ -462,3 +462,145 @@ body{
 .lista li::before {
     content: "☑️ ";
   }
+
+  /*------------------------------CSS-John-------------------------------------*/
+
+  .bannerN{
+    background-color: #606C38;
+    display: flex;
+    position: relative;
+    margin-top: 1250px;
+    justify-content: center;
+  }
+
+  .Mobile{
+    margin-top: 75px;
+    float: right;
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+  }
+
+  .MobArt{
+    margin-left: 50px;
+    width: 750px;
+    height: 500px;
+  }
+
+  .MobTitu{
+    font-size: 60px;
+    text-shadow: 5px 5px black;
+    width: 600px;
+    color: white;
+    font-weight: 900;
+    margin-left: -150px;
+  }
+
+  .MobCont{
+    color: black;
+    font-size: 30px;
+    padding: 30px;
+    float: left;
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    }
+
+    .WarMobile{
+        margin-left: -25px;
+        margin-right: 25px;
+    }
+
+    .VerBoton{
+        height: 75px;
+        width: 400px;
+        border-radius: 15px;
+        font-weight: 900;
+        border-style: dashed;
+        color: white;
+        font-size: 25px;
+        background-color: #606C38;
+        border-color: black;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .FormuSec{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 250px;
+    display: flex;
+    background-image: url(/img/CityDestroyed.jpg);
+    }
+
+    .FormIma{
+        position: absolute;
+        margin-left: 100px;
+        margin-right: 50px;
+           }
+
+    .FImag{
+        width: 750px;
+        height: 750px;
+        border-radius: 400px;
+    }
+
+    .Formu{
+        width: 500px;
+        position: absolute;
+        background-color: #606C38;
+        padding: 25px;
+        border-radius: 15px;
+        border-color: black;
+        border: 5px;
+        margin-left: 600px;
+        margin-top: 400px;
+    }
+
+    .TituForm1{
+        color:#BC6C25;
+        font-size: 39px;
+        margin-top: 5px;
+        text-shadow: 2px 2px black;
+    }
+
+    .TituForm2{
+        color: white;
+        text-shadow: 2px 2px black;
+        margin-bottom: 5px;
+    }
+
+    .Name{
+        width: 475px;
+        height: 40px;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .Mail{
+        width: 475px;
+        height: 40px;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .Cell{
+        width: 475px;
+        height: 40px;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .Enviar{
+        width: 500px;
+        height: 80px;
+        border-radius: 15px;
+        font-size: larger;
+        text-shadow: 1px 1px #606C38;
+        color: black;
+        font-weight: 900;
+    }
