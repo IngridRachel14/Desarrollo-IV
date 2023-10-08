@@ -252,6 +252,7 @@ body{
     font-weight: bold;
     margin-top: 50px;
     margin-left: -100px;
+    cursor: pointer;
 }
 .color {
     width: 28%;
@@ -343,6 +344,7 @@ body{
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 .cir2{
     width: 15%;
