@@ -531,7 +531,6 @@ body{
     margin-right: 50px;
     margin-top: 250px;
     display: flex;
-    background-image: url(/img/CityDestroyed.jpg);
     }
 
     .FormIma{
@@ -603,4 +602,17 @@ body{
         text-shadow: 1px 1px #606C38;
         color: black;
         font-weight: 900;
+        cursor: pointer;
+    }
+
+    footer{
+        margin-top: 1000px;
+        background-color: #606C38;
+    }
+
+    .FootTitu{
+        color: white;
+        font-weight: 300;
+        font-size:medium;
+        text-shadow: 1px 1px black;
     }
