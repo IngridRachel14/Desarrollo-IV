@@ -259,7 +259,7 @@ body {
     font-weight: bold;
     margin-top: 50px;
     margin-left: -100px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .color {
@@ -294,27 +294,44 @@ body {
 /*responsive*/
 @media (max-width: 768px) {
     .c-comunidad {
-        width: 95%; 
+        width: 95%;
         margin: 15px;
         height: 320px;
     }
+
     .t-comunidad {
-        font-size: 30px; 
-        margin-left: 0; 
+        font-size: 30px;
+        margin-left: 0;
     }
+
     .p-comunidad {
-        font-size: 25px; 
-        margin: 20px; 
+        font-size: 25px;
+        margin: 20px;
         text-align: left;
     }
+<<<<<<< Updated upstream
     .b-comunidad{
         height: 410px;
+=======
+
+    .b-comunidad {
+        height: 350px;
+>>>>>>> Stashed changes
     }
+
     .bo-comunidad {
+<<<<<<< Updated upstream
         width: 60%; 
         margin: 20px auto; 
+=======
+        width: 80%;
+        margin: 20px auto;
+>>>>>>> Stashed changes
     }
-    .color, .relleno, .i-comunidad{
+
+    .color,
+    .relleno,
+    .i-comunidad {
         display: none;
     }
 }
@@ -408,26 +425,28 @@ body {
 }
 
 /*----- responsive -----*/
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .b-quien {
         height: 850px;
     }
     .i-quien {
-        display: none; 
+        display: none;
     }
     .c-quien {
-        width: 90%; 
-        left: 5%; 
-        top: 10%; 
+        width: 90%;
+        left: 5%;
+        top: 10%;
     }
+
     .p-quien {
-        margin: 20px; 
-        font-size: 20px; 
+        margin: 20px;
+        font-size: 20px;
     }
     .bo-quien{
         width: 150px;
     }
 }
+
 /*-------- Equipo  --------*/
 
 .t-equipo {
@@ -474,44 +493,64 @@ body {
     font-size: 25px;
     text-align: center;
 }
+
 /*      responsive       */
 @media (max-width: 767px) {
     .t-equipo {
+<<<<<<< Updated upstream
         top: 70%; 
         left: 40%; 
         transform: translate(-50%, -50%);
         font-size: 28px; 
+=======
+        top: 80%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 38px;
+>>>>>>> Stashed changes
     }
+
     .equipo {
+<<<<<<< Updated upstream
         height: auto; 
         flex-direction: column; 
         align-items: center; 
         top: 75%;
+=======
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        top: 85%;
+>>>>>>> Stashed changes
         position: relative;
     }
+
     .c-equipo {
-        width: 80%; 
+        width: 80%;
         margin: 10px;
         padding: 10px;
-        height: auto; 
+        height: auto;
     }
+
     .i-equipo {
-        width: 60px; 
-        height: 60px; 
-       
+        width: 60px;
+        height: 60px;
+
     }
+
     .p-equipo {
-        font-size: 20px; 
+        font-size: 20px;
         margin: 10px;
     }
 
     .s-equipo {
-        font-size: 20px; 
+        font-size: 20px;
         text-align: center;
     }
 }
+
 /* ------- banner ---------*/
-.actual{
+.actual {
     position: absolute;
     z-index: 3;
     width: 99%;
@@ -587,6 +626,7 @@ body {
     content: "☑️ ";
 }
 
+<<<<<<< Updated upstream
   /*----------Responsive Actual----------*/
   @media (max-width: 600px) {
     .actual {
@@ -598,21 +638,50 @@ body {
     .c-actual{
         position: static;
         width: 100%; 
+=======
+/*----------Responsive Actual----------*/
+@media (max-width: 768px) {
+    .actual {
+        height: 50px;
+    }
+
+    .cir3,
+    .cir4,
+    .cir5 {
+        display: none;
+    }
+
+    .c-actual {
+        position: relative;
+        width: 100%;
+>>>>>>> Stashed changes
         height: 300px;
         left: 5px;
         margin-top: 138%;
     }
+
     .t-actual {
-        font-size: 30px; 
+        font-size: 30px;
     }
+
     .p-actual {
+<<<<<<< Updated upstream
         font-size: 18px;
+=======
+        font-size: 20px;
+>>>>>>> Stashed changes
     }
+
     .lista {
+<<<<<<< Updated upstream
         font-size: 18px; 
+=======
+        font-size: 20px;
+>>>>>>> Stashed changes
     }
 }
-  /*------------------------------CSS-John-------------------------------------*/
+
+/*------------------------------CSS-John-------------------------------------*/
 
 .bannerN {
     background-color: #606C38;
@@ -767,7 +836,7 @@ footer {
 
 @media (max-width:600px) {
 
-    .bannerN{
+    .bannerN {
         margin-top: 850px;
     }
 
@@ -805,19 +874,19 @@ footer {
         margin-left: -200px;
     }
 
-    .MobTitu{
+    .MobTitu {
         font-size: 30px;
         margin-left: -50px;
         color: #BC6C25;
         text-shadow: 1px 1px black;
     }
 
-    .MobCont{
+    .MobCont {
         width: 250px;
         margin-left: -60px;
     }
 
-    .VerBoton{
+    .VerBoton {
         margin-left: 5px;
         margin-right: 5px;
         width: 250px;
@@ -828,7 +897,7 @@ footer {
         width: 250px;
     }
 
-    .Mobile{
+    .Mobile {
         margin-top: 950px;
         width: 305px;
         height: 305px;
