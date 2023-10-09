@@ -309,24 +309,13 @@ body {
         margin: 20px;
         text-align: left;
     }
-<<<<<<< Updated upstream
     .b-comunidad{
         height: 410px;
-=======
-
-    .b-comunidad {
-        height: 350px;
->>>>>>> Stashed changes
     }
 
     .bo-comunidad {
-<<<<<<< Updated upstream
-        width: 60%; 
-        margin: 20px auto; 
-=======
         width: 80%;
         margin: 20px auto;
->>>>>>> Stashed changes
     }
 
     .color,
@@ -497,31 +486,17 @@ body {
 /*      responsive       */
 @media (max-width: 767px) {
     .t-equipo {
-<<<<<<< Updated upstream
         top: 70%; 
         left: 40%; 
         transform: translate(-50%, -50%);
         font-size: 28px; 
-=======
-        top: 80%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        font-size: 38px;
->>>>>>> Stashed changes
     }
 
     .equipo {
-<<<<<<< Updated upstream
         height: auto; 
         flex-direction: column; 
         align-items: center; 
         top: 75%;
-=======
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-        top: 85%;
->>>>>>> Stashed changes
         position: relative;
     }
 
@@ -626,7 +601,6 @@ body {
     content: "☑️ ";
 }
 
-<<<<<<< Updated upstream
   /*----------Responsive Actual----------*/
   @media (max-width: 600px) {
     .actual {
@@ -638,23 +612,6 @@ body {
     .c-actual{
         position: static;
         width: 100%; 
-=======
-/*----------Responsive Actual----------*/
-@media (max-width: 768px) {
-    .actual {
-        height: 50px;
-    }
-
-    .cir3,
-    .cir4,
-    .cir5 {
-        display: none;
-    }
-
-    .c-actual {
-        position: relative;
-        width: 100%;
->>>>>>> Stashed changes
         height: 300px;
         left: 5px;
         margin-top: 138%;
@@ -665,19 +622,11 @@ body {
     }
 
     .p-actual {
-<<<<<<< Updated upstream
         font-size: 18px;
-=======
-        font-size: 20px;
->>>>>>> Stashed changes
     }
 
     .lista {
-<<<<<<< Updated upstream
         font-size: 18px; 
-=======
-        font-size: 20px;
->>>>>>> Stashed changes
     }
 }
 
