@@ -229,11 +229,15 @@
         padding: 20px;
         margin-top: -19px;
     }
+    .boton-descargar{
+       margin-left: 0;
+    }
 
     .video-banner {
-        max-width: 100%;
+        max-width: 10%;
         height: auto;
         margin-left: -20px;
+       
     }
 
     .capa-opaca {
@@ -509,6 +513,9 @@ body {
     .bo-quien {
         width: 150px;
     }
+    .cir1, .cir2, .cuadrado{
+        height: 50px;
+    }
 }
 
 /*-------- Equipo  --------*/
@@ -702,6 +709,7 @@ body {
 
     .p-actual {
         font-size: 18px;
+        margin: 2px;
     }
 
     .lista {
