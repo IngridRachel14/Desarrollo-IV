@@ -308,10 +308,10 @@ body {
         text-align: left;
     }
     .b-comunidad{
-        height: 350px;
+        height: 410px;
     }
     .bo-comunidad {
-        width: 80%; 
+        width: 60%; 
         margin: 20px auto; 
     }
     .color, .relleno, .i-comunidad{
@@ -410,13 +410,11 @@ body {
 /*----- responsive -----*/
 @media (max-width: 768px) { 
     .b-quien {
-        height: 600px;
+        height: 850px;
     }
-
     .i-quien {
         display: none; 
     }
-
     .c-quien {
         width: 90%; 
         left: 5%; 
@@ -426,11 +424,13 @@ body {
         margin: 20px; 
         font-size: 20px; 
     }
+    .bo-quien{
+        width: 150px;
+    }
 }
 /*-------- Equipo  --------*/
 
 .t-equipo {
-
     top: 78%;
     left: 35%;
     position: absolute;
@@ -477,16 +477,16 @@ body {
 /*      responsive       */
 @media (max-width: 767px) {
     .t-equipo {
-        top: 80%; 
+        top: 70%; 
         left: 40%; 
         transform: translate(-50%, -50%);
-        font-size: 38px; 
+        font-size: 28px; 
     }
     .equipo {
         height: auto; 
         flex-direction: column; 
         align-items: center; 
-        top: 85%;
+        top: 75%;
         position: relative;
     }
     .c-equipo {
@@ -588,29 +588,28 @@ body {
 }
 
   /*----------Responsive Actual----------*/
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .actual {
-        height: 50px; 
+        height: 500px; 
     }
-
     .cir3, .cir4, .cir5{
         display: none;
     }
     .c-actual{
-        position: relative;
+        position: static;
         width: 100%; 
         height: 300px;
         left: 5px;
-        margin-top: 150%;
+        margin-top: 138%;
     }
     .t-actual {
         font-size: 30px; 
     }
     .p-actual {
-        font-size: 20px; 
+        font-size: 18px;
     }
     .lista {
-        font-size: 20px; 
+        font-size: 18px; 
     }
 }
   /*------------------------------CSS-John-------------------------------------*/
