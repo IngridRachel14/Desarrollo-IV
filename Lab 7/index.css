@@ -2,6 +2,21 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.encabezado{
+    background-color: #0074cc;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.titulo{
+    justify-content: center;
+    align-content: center;
+    margin-left: 600px;
+    font-family: Arial, sans-serif;
+    color: white;
+    justify-content: space-around;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -63,6 +78,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white
 }
 
 .logo-u {
@@ -74,4 +90,11 @@ footer {
 
 .logo-u-fisc{
     margin-top: 25px;
+}
+
+.nombres{
+    list-style-type: none;
+    margin-top: -200px;
+    justify-content: center;
+    align-items: center;
 }
