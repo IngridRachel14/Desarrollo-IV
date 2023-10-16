@@ -167,21 +167,28 @@
     </table>
 
     <!-------------------------------------HTML-John--------------------------->
-    <br>
-    <center>
-        <p> <b>DIGITE EL NÚMERO DEL SUPERHÉROE O VILLANO <br> (HAY 732 EN TOTAL)</b></p>
-        <input type="number" id="supId" onchange="RecargarDatos()" min="1">
-    </center>
-    <br>
-    <table class="Sup">
-        <thead class="SupHead">
-            <th>Retrato</th>
-            <th>Nombre</th>
-            <th>Editorial</th>
-        </thead>
-        <tbody id="cont">
-        </tbody>
-    </table>
+    <section class="SupTituSec">
+        <div class="SupTituDiv">
+            <br>
+            <center>
+                <p> <b>DIGITE EL NÚMERO DEL SUPERHÉROE O VILLANO <br> (HAY 732 EN TOTAL)</b></p>
+                <input type="number" id="supId" onchange="RecargarDatos()" min="1">
+            </center>
+        </div>
+
+        <div class="SupTableDiv">
+            <br>
+            <table class="Sup">
+                <thead class="SupHead">
+                    <th>Retrato</th>
+                    <th>Nombre</th>
+                    <th>Editorial</th>
+                </thead>
+                <tbody id="cont">
+                </tbody>
+            </table>
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
 

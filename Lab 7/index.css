@@ -46,6 +46,7 @@ button:hover {
     width: 690px;
 }
 
+<<<<<<< HEAD
 footer {
     background-color:#0074cc;
     font-family:  Arial, sans-serif;
@@ -76,3 +77,19 @@ footer {
     margin-top: 25px;
 }
 
+=======
+.SupSec{
+ display: flex;
+}
+
+.SupTituDiv{
+float: left;
+margin-left: 50px;
+margin-top: 250px;
+}
+
+.SupTableDiv{
+ float: right;
+ margin-right: 50px;
+}
+>>>>>>> 383865d11196ffc9ce513a5e416aa8261d2fdb2e
