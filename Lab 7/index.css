@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr.trimpar {
+    background-color: #f7f7f7;
+}
+
+tr.trpar {
+    background-color: #e0e0e0;
+}
+
+button {
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0059a3;
+}
+
+/*-------------------------------------CSS-John---------------------------*/
+
+.Sup {
+    justify-content: center;
+    width: 690px;
+}
