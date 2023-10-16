@@ -2,6 +2,21 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.encabezado{
+    background-color: #0074cc;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.titulo{
+    justify-content: center;
+    align-content: center;
+    margin-left: 600px;
+    font-family: Arial, sans-serif;
+    color: white;
+    justify-content: space-around;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -46,16 +61,40 @@ button:hover {
     width: 690px;
 }
 
-.SupSec{
- display: flex;
+footer {
+    background-color:#0074cc;
+    font-family:  Arial, sans-serif;
+    margin-right: 5px;
+    margin-top: 25px;
+    
 }
 
-.SupTituDiv{
-float: left;
-margin-left: 50px;
+.container1{
+    display: flex;
+    margin-top: 20px;
 }
 
-.SupTableDiv{
- float: right;
- margin-right: 50px;
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+.logo-u {
+    max-width: 48%;
+    margin-left: 25px;
+    margin-right: 1140px;
+    margin-top: 25px;
+}
+
+.logo-u-fisc{
+    margin-top: 25px;
+}
+
+.nombres{
+    list-style-type: none;
+    margin-top: -200px;
+    justify-content: center;
+    align-items: center;
 }
