@@ -92,6 +92,7 @@ function ObtenerDatos(){
 
 function MapearDatos(personajes){
     let cont = document.getElementById("cont")
+
     cont.innerHTML = '';
     cont.innerHTML += MapearPlantilla(personajes);
 }
