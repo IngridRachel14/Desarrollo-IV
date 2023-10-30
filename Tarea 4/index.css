@@ -113,8 +113,11 @@ header {
     cursor: pointer;
 }
 
-.bx {
+.Ojo {
     transform: translateX(-35px);
     cursor: pointer;
-    filter: invert();
+    height: 15px;
+    width: 15px;
+    opacity: 0.3;
+    top: 5px;
 }
