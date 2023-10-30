@@ -50,21 +50,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-
-
-
-        function showLoader() {
-            var loader = document.getElementById("loader");
-            loader.classList.remove("hidden");
-
-
-            var enviarButton = document.querySelector(".Enviar");
-            enviarButton.disabled = true;
-
-            setTimeout(function () {
-
-                loader.classList.add("hidden");
-                enviarButton.disabled = false;
-            }, 3000);
-        }
-
+    document.querySelector('.Enviar').addEventListener('click', function(event) {
+        event.preventDefault(); // Evita el envío del formulario
+        mostrarLoader();
+      });
+    
+      function mostrarLoader() {
+        // Muestra el loader y oculta el botón
+        document.getElementById('loader').style.display = 'block';
+        document.querySelector('.Enviar').style.display = 'none';
+    
+        // Simulación de una tarea 
+        setTimeout(function() {
+          // Oculta el loader
+          document.getElementById('loader').style.display = 'none';
+        }, 2000); 
+      }
