@@ -20,16 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
     enviarBtn.addEventListener('click', function (event) {
         if (mailInput.value === '') {
             mailInput.style.backgroundColor = 'red';
-            event.preventDefault(); // Evita enviar el formulario si el campo está vacío
+            event.preventDefault();
         } else {
-            mailInput.style.backgroundColor = ''; // Restaura el color de fondo predeterminado
+            mailInput.style.backgroundColor = '';
         }
 
         if (contraInput.value === '') {
             contraInput.style.backgroundColor = 'red';
-            event.preventDefault(); // Evita enviar el formulario si el campo está vacío
+            event.preventDefault();
         } else {
-            contraInput.style.backgroundColor = ''; // Restaura el color de fondo predeterminado
+            contraInput.style.backgroundColor = '';
         }
     });
 });
@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
 enviarBtn.addEventListener('click', function (event) {
     if (mailInput.value === '' && contraInput.value === '') {
         alert('Por favor, completa los campos de correo electrónico y contraseña.');
-        event.preventDefault(); // Evita enviar el formulario si los campos están vacíos
+        event.preventDefault();
     } else if (mailInput.value === '') {
         alert('Por favor, ingresa tu correo electrónico.');
-        event.preventDefault(); // Evita enviar el formulario si el campo de correo electrónico está vacío
+        event.preventDefault();
     } else if (contraInput.value === '') {
         alert('Por favor, ingresa tu contraseña.');
-        event.preventDefault(); // Evita enviar el formulario si el campo de contraseña está vacío
+        event.preventDefault();
     }
 });
