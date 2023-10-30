@@ -49,6 +49,7 @@ enviarBtn.addEventListener('click', function (event) {
 
 
 
+
 function showLoader() {
     var loader = document.getElementById("loader");
     loader.classList.remove("hidden");
@@ -57,7 +58,6 @@ function showLoader() {
     enviarButton.disabled = true;
 
     setTimeout(function () {
-        
         loader.classList.add("hidden");
         enviarButton.disabled = false;
     }, 3000);
