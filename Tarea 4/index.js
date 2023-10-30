@@ -64,5 +64,5 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(function() {
           // Oculta el loader
           document.getElementById('loader').style.display = 'none';
-        }, 3000); 
+        }, 5000); 
       }
