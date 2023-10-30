@@ -52,9 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
         function showLoader() {
             var loader = document.getElementById("loader");
             loader.classList.remove("hidden");
+
 
             var enviarButton = document.querySelector(".Enviar");
             enviarButton.disabled = true;
@@ -65,3 +67,4 @@ document.addEventListener("DOMContentLoaded", function () {
                 enviarButton.disabled = false;
             }, 3000);
         }
+
