@@ -94,6 +94,7 @@ header {
     font-size: 30px;
     color: white;
     background-color: #333333c2;
+    cursor: pointer;
 }
 
 .Ayuda {
@@ -118,9 +119,9 @@ header {
     cursor: pointer;
     width: 15px;
     opacity: 0.3;
-    top: 5px;
 }
     
+/*-----------------------------CSS-Ingrid-----------------------------*/
 
 footer {
     display: flex;
