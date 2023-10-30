@@ -22,43 +22,46 @@ document.addEventListener("DOMContentLoaded", function () {
             mailInput.style.backgroundColor = 'red';
             event.preventDefault();
         } else {
-            mailInput.style.backgroundColor = '';
+            mailInput.style.backgroundColor = 'green';
         }
 
         if (contraInput.value === '') {
             contraInput.style.backgroundColor = 'red';
             event.preventDefault();
         } else {
-            contraInput.style.backgroundColor = '';
+            contraInput.style.backgroundColor = 'green';
         }
+
+            if (mailInput.value === '' && contraInput.value === '') {
+                alert('Por favor, completa los campos de correo electrónico y contraseña.');
+                event.preventDefault();
+            } else if (mailInput.value === '') {
+                alert('Por favor, ingresa tu correo electrónico.');
+                event.preventDefault();
+            } else if (contraInput.value === '') {
+                alert('Por favor, ingresa tu contraseña.');
+                event.preventDefault();
+            }
+
+            if (mailInput.value !== '' && contraInput.value !== '') {
+                window.alert('BIENVENIDO A WARFARE')
+                event.preventDefault();
+            }
+        });
     });
-});
-
-enviarBtn.addEventListener('click', function (event) {
-    if (mailInput.value === '' && contraInput.value === '') {
-        alert('Por favor, completa los campos de correo electrónico y contraseña.');
-        event.preventDefault();
-    } else if (mailInput.value === '') {
-        alert('Por favor, ingresa tu correo electrónico.');
-        event.preventDefault();
-    } else if (contraInput.value === '') {
-        alert('Por favor, ingresa tu contraseña.');
-        event.preventDefault();
-    }
-});
 
 
 
-function showLoader() {
-    var loader = document.getElementById("loader");
-    loader.classList.remove("hidden");
+        function showLoader() {
+            var loader = document.getElementById("loader");
+            loader.classList.remove("hidden");
 
-    var enviarButton = document.querySelector(".Enviar");
-    enviarButton.disabled = true;
+            var enviarButton = document.querySelector(".Enviar");
+            enviarButton.disabled = true;
 
-    setTimeout(function () {
-        
-        loader.classList.add("hidden");
-        enviarButton.disabled = false;
-    }, 3000);
-}
+            setTimeout(function () {
+
+                loader.classList.add("hidden");
+                enviarButton.disabled = false;
+            }, 3000);
+        }
