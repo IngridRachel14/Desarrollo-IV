@@ -153,3 +153,7 @@ footer {
 h6 {
     text-align: center;
 }
+
+.hidden {
+    display: none;
+ }
