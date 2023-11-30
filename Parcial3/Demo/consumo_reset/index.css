@@ -1,0 +1,1151 @@
+/*------------------- CSS Ingrid --------------*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*-------------- Encabezado ---------------*/
+/*COntenedor del encabezado*/
+.caja-encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FEFAE0;
+}
+
+/*contenedor del logo*/
+.caja-logo {
+    margin-left: 20px;
+}
+
+/*Lista para hacer el menu*/
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+/*icon del menu desplegable*/
+.img-menu {
+    cursor: pointer;
+}
+
+/*contenedor de la lista desplegable*/
+.caja-menu-desplegable {
+    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+/*diseño al menu*/
+.caja-menu-desplegable:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu :hover {
+    background-color: black;
+}
+
+.sub-menu {
+    list-style-type: none;
+    padding: 10px 15px;
+    background-color: #606C38;
+    display: block;
+    display: none;
+    position: absolute;
+}
+
+.text-sub-menu {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #606C38;
+}
+
+.style-a{
+    text-decoration: none;
+    color: white;
+}
+
+/*------------------------------------------------------------*/
+
+/*-------------------- Banner ------------------------------*/
+
+.banner {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.video-banner {
+    width: 100%;
+    /* Establece el ancho al 100% del contenedor */
+    height: auto;
+    text-align: center
+}
+
+/*opacidad para el video*/
+.capa-opaca {
+    position: absolute;
+    top: 96px;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    background-color: rgba(0, 0, 0, 0.316);
+    z-index: 1;
+}
+
+/*logo de la pagina encima del video*/
+.logo-banner {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 470px;
+    z-index: 2;
+    background-color: transparent;
+}
+
+/*texto que esta encima del video*/
+.texto-banner {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: -630px;
+    margin-left: 280px;
+}
+
+.texto-banner2 {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: -630px;
+    margin-left: 400px;
+}
+
+/*boton de descarga del video*/
+.boton-descargar {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #BC6C25;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    margin-top: -110px;
+    margin-left: 670px;
+}
+
+/*------------------------------------------------------------*/
+
+/*-------------------- Modos de Juego ------------------------------*/
+/*contenedor del los tipos de juegos*/
+.caja-modos-de-juegos {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/*tipos de juegos*/
+.lista-modo-de-juegos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.lista-modo-de-juegos li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-right: 40px;
+    margin-left: 80px;
+    background-color: #606C38;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/*texto de modo de juego */
+.texto-modo-de-juego {
+    margin-bottom: 10px;
+    margin-top: -10px;
+    background-color: #606C38;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+
+/*estilo del modo de juego*/
+.imagen-modo-de-juego {
+    padding: 0;
+    background-color: #606C38;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.img-modo-de-juego {
+    border-radius: 20px;
+}
+
+/*estilo para el boton jugar de los juegos*/
+.boton-jugar {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #BC6C25;
+    cursor: pointer;
+    color: white;
+}
+
+/*Responsive*/
+/*----------- Encabezado ----------*/
+@media (max-width: 760px) {
+
+    /*alineación del contenedor encabezado */
+    .caja-encabezado {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*tamaño y alineación del logo*/
+    .caja-logo {
+        width: 100px;
+        justify-content: center;
+    }
+
+    .caja-logo img {
+        width: 200px;
+        margin-left: -70px;
+    }
+
+    /*movemos el icon del menu desplegable*/
+    .img-menu {
+        margin-left: 180px;
+    }
+
+    /*------- Video Banner -------------*/
+    .banner {
+        padding: 20px;
+        margin-top: -19px;
+    }
+
+    /*mover el boton descarga del banner*/
+    .boton-descargar {
+        margin-left: 60px;
+    }
+
+    /*tamaño del banner video*/
+    .video-banner {
+        max-width: 10%;
+        height: auto;
+        margin-left: -20px;
+
+    }
+
+    /*movemos la capa opaca*/
+    .capa-opaca {
+        margin-top: -5px;
+    }
+
+    /*tamaño del logo */
+    .logo-banner {
+        max-width: 50%;
+        margin-left: 70px;
+        margin-top: -400px;
+    }
+
+    /*tamaño de la letra del banner y movimiento*/
+    .texto-banner {
+        font-size: 10px;
+        margin-left: -8px;
+        margin-top: -480px;
+    }
+
+    /*------------ Modos de Juego -------------*/
+    /*tamaño de las caja de juegos*/
+    .caja-modos-de-juegos {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .lista-modo-de-juegos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*mover el menu en el responsive*/
+    .caja-modos-de-juegos li {
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+}
+
+/*------------------------------------------------------------*/
+
+/*------------------------------CSS SUE -------------------------------------*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*fondo de toda la pagina*/
+body {
+    background-color: rgba(128, 128, 128, 0.137);
+}
+
+/*banner de la comunidad fondo*/
+.b-comunidad {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.37);
+    position: relative;
+}
+
+/*contenedor de contenido que va delante del banner*/
+.c-comunidad {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    /*para poder moverlo donde queremos*/
+    margin-top: 70px;
+    margin-left: 60px;
+    background-color: white;
+    font-weight: 400;
+    text-align: center;
+    z-index: 0;
+    /*para sobreponerlo delante del banner*/
+    border-radius: 15px;
+}
+
+/*titulo del banner*/
+.t-comunidad {
+    font-size: 40px;
+    color: #283618;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: -100px;
+}
+
+/*parrafo del banner de comuniad*/
+.p-comunidad {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 150px;
+}
+
+/*boton del banner de la comunidad*/
+.bo-comunidad {
+    height: 15%;
+    width: 20%;
+    background-color: #7f4f24;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+/*color cafe de fondo para la imagen*/
+.color {
+    width: 28%;
+    height: 90%;
+    top: 30px;
+    right: 110px;
+    background-color: #7f4f24;
+    position: absolute;
+    z-index: 1;
+    /*lo ponemos un valor para que este atras de la imagen*/
+}
+
+/*textura de fondo de la imagen */
+.relleno {
+    width: 30%;
+    height: 85%;
+    top: 45px;
+    right: 220px;
+    background: url(https://w7.pngwing.com/pngs/157/472/png-transparent-rows-diagonal-lines-lines-striped-background-parallel-lines-thumbnail.png);
+    position: absolute;
+    z-index: 2;
+    /*le ponemos el valor para que este detras de la imagen y sobre el de color cafe*/
+}
+
+/*imagen de la comunidad*/
+.i-comunidad {
+    width: 28%;
+    height: 80%;
+    top: 60px;
+    right: 190px;
+    position: absolute;
+    z-index: 3;
+    /*valor para que este sobre la textura y el relleno*/
+}
+
+/*responsive solo para banner communidad*/
+@media (max-width: 768px) {
+
+    /*tamaño del contenedor para responsive*/
+    .c-comunidad {
+        width: 95%;
+        margin: 15px;
+        height: 320px;
+    }
+
+    /*tamaño del titulo del banner comunidad*/
+    .t-comunidad {
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    /*tamaño y alineacion del parrafo del banner comunidad */
+    .p-comunidad {
+        font-size: 25px;
+        margin: 20px;
+        text-align: left;
+    }
+
+    /*tamaño del banner comunidad*/
+    .b-comunidad {
+        height: 410px;
+    }
+
+    /*tamaño del botn del banner comunidad*/
+    .bo-comunidad {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    /*que no se muestre en tamaño movil los relleno, color y la imagen*/
+    .color,
+    .relleno,
+    .i-comunidad {
+        display: none;
+    }
+}
+
+/*--------2do banner de quienes somos---------*/
+/*fondo, tamaño y color del banner quienes somos*/
+.b-quien {
+    width: 100%;
+    height: 1200px;
+    background-color: #606C38;
+    position: relative;
+}
+
+/*circulo decorativo detras del contenedor quienes somos*/
+/*circulo crema*/
+.cir1 {
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    z-index: 1;
+    /*valor para qe esta detras de la imagen*/
+    border-radius: 50%;
+    background-color: #FEFAE0;
+}
+
+/*imagen de la comunidad*/
+.i-quien {
+    width: 45%;
+    height: 60%;
+    top: 5%;
+    right: 190px;
+    position: absolute;
+    z-index: 2;
+}
+
+/*cuadrado verde detras de la immagen*/
+.cuadrado {
+    width: 50%;
+    height: 30%;
+    left: 10%;
+    top: 45%;
+    z-index: 1;
+    position: absolute;
+    background-color: #283618;
+}
+
+/*contenedor de quienes somos y que este sobre el circulo (cafe) el cuadrado verde */
+.c-quien {
+    background-color: white;
+    width: 35%;
+    height: 50%;
+    top: 12%;
+    left: 150px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 5%;
+    text-align: center;
+}
+
+/*titulo de banner quienes somos*/
+.t-quien {
+    font-size: 50px;
+    margin-top: 70px;
+    color: #7f4f24;
+}
+
+/*parrafo del banner quienes somos*/
+.p-quien {
+    margin: 10%;
+    font-size: 30px;
+    text-align: left;
+}
+
+/*boton para saber mas*/
+.bo-quien {
+    width: 30%;
+    height: 10%;
+    color: white;
+    background-color: #7f4f24;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*circulo con textura militar que este sobre lka imagen en un esquina */
+.cir2 {
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    right: 7%;
+    top: 60%;
+    z-index: 3;
+    border-radius: 50%;
+    background: url(https://w0.peakpx.com/wallpaper/847/39/HD-wallpaper-military-camouflage.jpg)
+}
+
+/*----- responsive solo del banner quienes somos -----*/
+@media (max-width: 768px) {
+
+    /*cambio del tamaño del banner fondo*/
+    .b-quien {
+        height: 850px;
+    }
+
+    /*que no se muestre la imagen en la version movil*/
+    .i-quien {
+        display: none;
+    }
+
+    /* cambio de taamaño y movimiento del contenedor de quienes somos*/
+    .c-quien {
+        width: 90%;
+        left: 5%;
+        top: 10%;
+    }
+
+    /*tamaño de letra */
+    .p-quien {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    /*ancho del boton*/
+    .bo-quien {
+        width: 150px;
+    }
+
+    /*los circulos y cuadrado, cambios de tamaño*/
+    .cir1,
+    .cir2,
+    .cuadrado {
+        height: 50px;
+    }
+}
+
+/*--------seccion de Equipos --------*/
+/*titulos del equipo */
+.t-equipo {
+    top: 78%;
+    left: 35%;
+    position: absolute;
+    z-index: 4;
+    font-size: 60px;
+    color: #FEFAE0;
+}
+
+/*contenedor de la seccion equipo*/
+.equipo {
+    width: 100%;
+    height: 30%;
+    top: 90%;
+    position: absolute;
+    z-index: 4;
+    display: flex;
+}
+
+/*contenedor de cada seccion equipo (este tiene la informacion)*/
+.c-equipo {
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*icon de la seccion de equipo*/
+.i-equipo {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left: 40%;
+}
+
+/*parrafo descriptivo de equipo*/
+.p-equipo {
+    font-size: 25px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+/*nombres de los integrantes del equipo*/
+.s-equipo {
+    font-size: 25px;
+    text-align: center;
+}
+
+/*    ------  responsive solo de la seccion de equipos  -------- */
+@media (max-width: 767px) {
+
+    /*cambio del tamaño del titulo */
+    .t-equipo {
+        top: 70%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+    }
+
+    /*cambio del tamaño del contenedor de equipo*/
+    .equipo {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        top: 75%;
+        position: relative;
+    }
+
+    /*cada contenedor con la informacion, cambio de tamaño*/
+    .c-equipo {
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        height: auto;
+    }
+
+    /*cambio  del tamaño de la imaghen*/
+    .i-equipo {
+        width: 60px;
+        height: 60px;
+    }
+
+    /*cambio del tamaño y movimiento del texto*/
+    .p-equipo {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    /*alineacion y tamanño de los nombres del equipo*/
+    .s-equipo {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+/* ------- banner  de personaliza ---------*/
+/*contenedor de la seccion personaliza*/
+.actual {
+    position: absolute;
+    z-index: 3;
+    width: 99%;
+    height: 200%;
+}
+
+/*circulo de fondo de color verde*/
+.cir3 {
+    position: absolute;
+    z-index: 4;
+    /*valor para que este dertras del contenido*/
+    margin-top: 30%;
+    width: 25%;
+    height: 28%;
+    left: 30%;
+    border-radius: 50%;
+    background-color: #606C38;
+}
+
+/*circulo de fondo con imagen que esta sobre el circulo de color*/
+.cir4 {
+    position: absolute;
+    z-index: 4;
+    /*valor para que este sobre el circulo de color*/
+    margin-top: 40%;
+    width: 35%;
+    height: 40%;
+    left: 10%;
+    border-radius: 50%;
+    background: url(img/circ3.jpg);
+}
+
+/*circulo con imagen que esta sobre el circulo de la imagen*/
+.cir5 {
+    position: absolute;
+    z-index: 4;
+    /*valor para que este sobre la imagen anterior*/
+    margin-top: 60%;
+    width: 25%;
+    height: 28%;
+    left: 30%;
+    border-radius: 50%;
+    background: url(img/circ4.jpg);
+}
+
+/*contenedor con la informacion de personaliza*/
+.c-actual {
+    position: absolute;
+    z-index: 4;
+    margin-top: 45%;
+    width: 40%;
+    height: 45%;
+    left: 50%;
+    border-radius: 5%;
+    background-color: white;
+}
+
+/*titulo de contenedor*/
+.t-actual {
+    margin: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: #7f4f24;
+}
+
+/*parrafo del contenedor*/
+.p-actual {
+    margin: 20px;
+    font-size: 30px;
+}
+
+/*lista con los tipos de personaliza*/
+.lista {
+    margin: 30px;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*tipo de decoración de la lista*/
+.lista li::before {
+    content: "☑️ ";
+}
+
+/*----------Responsive solo del Actual----------*/
+@media (max-width: 600px) {
+
+    /*tamaño de fondo personaliza*/
+    .actual {
+        height: 500px;
+    }
+
+    /*que no se muestre los circulos en el respnsive*/
+    .cir3,
+    .cir4,
+    .cir5 {
+        display: none;
+    }
+
+    /*contenedor con la informacion de personaliza*/
+    .c-actual {
+        position: static;
+        width: 100%;
+        height: 300px;
+        left: 5px;
+        margin-top: 138%;
+    }
+
+    /*tamaño del titulo personaliza*/
+    .t-actual {
+        font-size: 30px;
+    }
+
+    /*tamaño del parrafo*/
+    .p-actual {
+        font-size: 18px;
+        margin: 2px;
+    }
+
+    /*tamaño de las letras de la lista*/
+    .lista {
+        font-size: 18px;
+    }
+}
+
+/*------------------------------CSS-John-------------------------------------*/
+/*banner  de dispositivos*/
+.bannerN {
+    background-color: #606C38;
+    display: flex;
+    position: relative;
+    margin-top: 1250px;
+    justify-content: center;
+}
+
+/*imagen de dispositivos*/
+.Mobile {
+    margin-top: 75px;
+    float: right;
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+/*contenedor de la secion dispositivo*/
+.MobArt {
+    margin-left: 50px;
+    width: 750px;
+    height: 500px;
+}
+
+/*titulo de banner dispositivo*/
+.MobTitu {
+    font-size: 60px;
+    text-shadow: 5px 5px black;
+    width: 600px;
+    color: white;
+    font-weight: 900;
+}
+
+/*contenido del banner dispositivo*/
+.MobCont {
+    color: black;
+    font-size: 30px;
+    padding: 30px;
+    float: left;
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/*contenedor de la imagen dispositivo*/
+.WarMobile {
+    margin-left: -25px;
+    margin-right: 25px;
+}
+
+/*imagen de banner dispositivo*/
+.VerBoton {
+    height: 75px;
+    width: 400px;
+    border-radius: 15px;
+    font-weight: 900;
+    border-style: dashed;
+    color: white;
+    font-size: 25px;
+    background-color: #606C38;
+    border-color: black;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*fondo de formulario*/
+.FormuSec {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 250px;
+    display: flex;
+}
+
+/*contenedor de la imagen del formulario*/
+.FormIma {
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+/*imagen del formulario*/
+.FImag {
+    width: 750px;
+    height: 750px;
+    border-radius: 400px;
+}
+
+/*formulario*/
+.Formu {
+    width: 500px;
+    position: absolute;
+    background-color: #606C38;
+    padding: 25px;
+    border-radius: 15px;
+    border-color: black;
+    border: 5px;
+    margin-left: 600px;
+    margin-top: 400px;
+}
+
+/*titulo del formulario*/
+.TituForm1 {
+    color: #BC6C25;
+    font-size: 39px;
+    margin-top: 5px;
+    text-shadow: 2px 2px black;
+}
+
+/*titulo de cada campo*/
+.TituForm2 {
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-bottom: 5px;
+}
+
+/*campo nombre*/
+.Name {
+    width: 475px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*campo email*/
+.Mail {
+    width: 475px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*campo celular*/
+.Cell {
+    width: 475px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*boton de envio de formulario*/
+.Enviar {
+    width: 500px;
+    height: 80px;
+    border-radius: 15px;
+    font-size: larger;
+    text-shadow: 1px 1px #606C38;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/*pie de pagina*/
+footer {
+    margin-top: 1000px;
+    background-color: #606C38;
+}
+
+/*contenido del pie de pagina*/
+.FootTitu {
+    color: white;
+    font-weight: 300;
+    font-size: medium;
+    text-shadow: 1px 1px black;
+    text-decoration: underline;
+}
+
+/*-----Responsive  del formulario, banner dispositivo y footer------*/
+@media (max-width:600px) {
+
+    /*movimiento del banner dispositivo*/
+    .bannerN {
+        margin-top: 850px;
+    }
+
+    /*cambio de la letra del titulo de los campos*/
+    .FormuSec {
+        margin-top: 1300px;
+    }
+
+    /*cambio del tamaño de la imagen del formulario*/
+    .FImag {
+        width: 380px;
+        height: 375px;
+        position: absolute;
+        margin-left: -150px;
+        border-radius: 0px;
+    }
+
+    /* cambio de posicion y tamaño del formulario */
+    .Formu {
+        position: absolute;
+        margin-left: -49px;
+        width: 250px;
+    }
+
+    /*tamaños de los campos del formulario*/
+    .Mail,
+    .Name,
+    .Cell {
+        width: 225px;
+    }
+
+    /*tamaño del boton de envio*/
+    .Enviar {
+        width: 250px;
+    }
+
+    /*tamaño y posicion del contenido de dispositivo*/
+    .MobArt {
+        position: absolute;
+        width: 10px;
+        margin-left: -200px;
+    }
+
+    /*tamaño del titulo de dispositivo*/
+    .MobTitu {
+        font-size: 30px;
+        margin-left: -50px;
+        color: #BC6C25;
+        text-shadow: 1px 1px black;
+    }
+
+    /*posicion y tamaño de contenido dispositivo*/
+    .MobCont {
+        width: 250px;
+        margin-left: -60px;
+    }
+
+    /*boton de dispositivo cambio de tamaño */
+    .VerBoton {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 250px;
+    }
+
+    /*tamaño del contenedor de la imagen dispositivo*/
+    .WarMobile {
+        position: absolute;
+        width: 250px;
+    }
+
+    /*tamaño de la imagen dispositivo*/
+    .Mobile {
+        margin-top: 950px;
+        width: 305px;
+        height: 305px;
+        position: absolute;
+        margin-left: -10px;
+        border-radius: 0px;
+    }
+}
+
+
+/* buscador*/
+.buscar {
+    position: relative;
+    padding: 5px;
+  }
+  
+  .buscar input {
+    width: 0;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #222;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+  }
+  
+  .btn {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #9d9d9d;
+   text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .buscar:hover input {
+    width: 240px;
+  }
+  
+  .buscar input:focus {
+    width: 240px;
+  }
+  .lupa{
+    margin-top: 10px;
+  }
+.banner-img{
+    width: 100%;
+    height: 720px;
+}
+
+  /* Estilos para el loader */
+  .loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid gray;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    display: none;
+  }
+
+  /* Animación de giro */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
