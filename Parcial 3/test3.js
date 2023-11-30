@@ -1,5 +1,5 @@
 function ObtenerDatos(){
-    fetch("https://www.superheroapi.com/api.php/3526470407630620/1").then(res=>{
+    fetch("http://localhost:8080/contenidos?id=seccion1").then(res=>{
         if(res.ok){
             res.json().then(personajes=>{
                 MapearDatos(personajes);
