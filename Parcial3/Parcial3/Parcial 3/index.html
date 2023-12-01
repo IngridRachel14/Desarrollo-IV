@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Game Zone</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo-web.png" type="image/x-icon">
+</head>
+
+<body onload="ObtenerSeccion()">
+    <!--Encabezado-->
+    <header>
+        <section>
+            <!--contenedor de la logo-->
+            <div class="caja-encabezado">
+                <div class="caja-logo">
+                    <img src="nombre-logo-war-game-zone.png" width="300">
+                </div>
+                <!--menu -->
+                <nav>
+                    <ul class="menu">
+                        <li class="caja-menu-desplegable"><img class="img-menu" src="icon-menu.png" alt="" width="20">
+                            <ul class="sub-menu">
+                                <li class="text-sub-menu">Home</li>
+                                <li class="text-sub-menu">Juegos</li>
+                                <li class="text-sub-menu">Noticias</li>
+                                <li class="text-sub-menu">Soporte</li>
+                                <li class="text-sub-menu">Tienda</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!--banner video-->
+        <section class="banner">
+            <div class="video-banner">
+                <video autoplay loop muted>
+                    <source src="video-banner.mp4">
+                </video>
+            </div>
+            <!--capa opaca sobre el video-->
+            <div class="capa-opaca"></div>
+            <!--logpo de la pagina-->
+            <img class="logo-banner" id="logo" alt="">
+            <!--descripcion del banner-->
+            <h2 class="texto-banner" id="bannerprincipal"></h2>
+            <button class="boton-descargar">DESCARGAR</button>
+        </section>
+
+        <!-- Seccion de modos de juego -->
+        <section class="caja-modos-de-juegos">
+            <!-- Contenedor de los modos de juego -->
+            <ul class="lista-modo-de-juegos">
+                <!-- Primer elemento -->
+                <li>
+                    <div id="titulo0" class="texto-modo-de-juego"></div>
+                    <div class="imagen-modo-de-juego">
+                        <img class="img-modo-de-juego" alt="" width="180" height="200" id="img0">
+                    </div>
+                    <button class="boton-jugar">JUGAR</button>
+                </li>
+                <!-- Segundo elemento -->
+                <li>
+                    <div id="titulo1" class="texto-modo-de-juego"></div>
+                    <div class="imagen-modo-de-juego">
+                        <img class="img-modo-de-juego" alt="" width="180" height="200" id="img1">
+                    </div>
+                    <button class="boton-jugar">JUGAR</button>
+                </li>
+                <!-- Tercer elemento -->
+                <li>
+                    <div id="titulo2" class="texto-modo-de-juego"></div>
+                    <div class="imagen-modo-de-juego">
+                        <img class="img-modo-de-juego" alt="" width="180" height="200" id="img2">
+                    </div>
+                    <button class="boton-jugar">JUGAR</button>
+                </li>
+                <!-- Cuarto elemento -->
+                <li>
+                    <div id="titulo3" class="texto-modo-de-juego"></div>
+                    <div class="imagen-modo-de-juego">
+                        <img class="img-modo-de-juego" alt="" width="180" height="200" id="img3">
+                    </div>
+                    <button class="boton-jugar">JUGAR</button>
+                </li>
+            </ul>
+        </section>
+
+    </header>
+
+
+    <!--banner de comunidad-->
+    <section class="b-comunidad">
+        <!--contenedor de la informacion-->
+        <section class="c-comunidad">
+            <h2 class="t-comunidad" id="comunidadti"></h2>
+            <P class="p-comunidad" id="comunidadparra"></P>
+            <button class="bo-comunidad"> Unirse!</button>
+        </section>
+        <!--color, relleno y imagen de la comunidad-->
+        <div class="color"></div>
+        <div class="relleno"></div>
+        <img class="i-comunidad" id="comunidadimg" alt="">
+    </section>
+    <section class="b-quien">
+        <!--circulo de color, imagen y cuadrado de color -->
+        <div class="cir1"></div>
+        <img class="i-quien" id="quienimg" alt="">
+        <div class="cuadrado"></div>
+        <!--contenedor de la informacion-->
+        <section class="c-quien">
+            <h2 class="t-quien" id="quientitulo"></h2>
+            <p class="p-quien" id="quienparrafo"></p>
+            <button class="bo-quien"> conocenos</button>
+        </section>
+        <!--circulo con textura-->
+        <div class="cir2"></div>
+        <!--seccion de equipo -->
+        <h2 class="t-equipo" id="equipoti"></h2>
+        <section class="equipo">
+            <!--contenedor de los equipos-->
+            <div class="c-equipo">
+                <p class="p-equipo" id="equipoparra1"></p>
+                <img class="i-equipo" alt="" id="equipoimg1">
+                <h3 class="s-equipo" id="equipo1"></h3>
+            </div>
+            <div class="c-equipo">
+                <p class="p-equipo" id="equipoparra2"></p>
+                <img class="i-equipo" alt="" id="equipoimg2">
+                <h3 class="s-equipo" id="equipo2"></h3>
+            </div>
+            <div class="c-equipo">
+                <p class="p-equipo" id="equipoparra3"></p>
+                <img class="i-equipo" alt="" id="equipoimg3">
+                <h3 class="s-equipo" id="equipo3"></h3>
+            </div>
+        </section>
+    </section>
+
+    <!--banner de dispositivos-->
+    <section class="bannerN">
+        <!--contenedor de la informacion-->
+        <article class="MobArt">
+            <br>
+            <br>
+            <h2 class="MobTitu" id="titulo6"></h2>
+            <br>
+            <br>
+            <div>
+                <p class="MobCont" id="parrafo5">
+                </p>
+                <a class="VerMás" href="https://www.tiktok.com/@john.pty/video/7281485476723248389">
+                    <button class="VerBoton">VER MÁS</button></a>
+            </div>
+        </article>
+        <!--imagen de dispositivos-->
+        <div class="WarMobile">
+            <img class="Mobile" alt="" id="img7">
+        </div>
+    </section>
+    
+    <!--seccion de formulario-->
+    <section class="FormuSec">
+        <!--contenedor de la imagen-->
+        <div class="FormIma">
+            <img class="FImag" id="img8" alt="">
+        </div>
+        <!--formulario-->
+        <div class="Formu">
+            <form>
+                <center>
+                    <h2 class="TituForm1">ÚNETE AL COMBATE</h2>
+                </center>
+                <br>
+                <h3 class="TituForm2">Nombre</h3>
+                <input class="Name" type="text" name="Nombre" id="" required>
+                <br>
+                <br>
+                <h3 class="TituForm2">Correo</h3>
+                <input class="Mail" type="email" name="Correo" required>
+                <br>
+                <br>
+                <h3 class="TituForm2">Teléfono</h3>
+                <input class="Cell" type="tel" name="Teléfono" required>
+                <br>
+                <br>
+                <input class="Enviar" type="submit" name="Enviar" id="">
+            </form>
+        </div>
+    </section>
+
+    <!--pie de pagina -->
+    <footer>
+        <br>
+        <br>
+        <br>
+        <center>
+            <h3 class="FootTitu" id="titulo7"></h3>
+        </center>
+        <br>
+        <br>
+    </footer>
+
+    <script src="test3.js"></script>
+</body>
+
+</html>
